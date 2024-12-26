@@ -17,14 +17,15 @@ public class WordFrequency {
 		// looping array of words
 		for(String word:words) {
 			
-			//storing in HashMap with key and value as 0 if 
-			wordMap.put(word,wordMap.getOrDefault(word, 0)+1);
 			/*
 			 * hashMap.getOrDefault(word, 0)
 			 * this above method returns the value for the mapped key,
 			 * or defaultValue if this map contains no mapping for 
 			 * the key.
 			 */
+			
+			wordMap.put(word,wordMap.getOrDefault(word, 0)+1);
+			
 			
 		}
 
